@@ -1,4 +1,6 @@
 import {heroesSorted} from "../heroesSorted";
+let test;
+let expect;
 test('should sort heroes by health in descending order', () => {
     const expected = [
         { name: 'маг', health: 100 },
